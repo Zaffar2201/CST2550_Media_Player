@@ -1,0 +1,15 @@
+.root {
+    -fx-background-color: #000000;
+}
+.label {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FBFBFB;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.button {
+ 	-fx-background-radius: 10em;
+                -fx-min-width: 60px;
+                -fx-min-height: 60px;
+                
+}

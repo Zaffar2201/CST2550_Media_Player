@@ -1,0 +1,45 @@
+
+.button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 100;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #B64926,
+        #FFB03B,
+        radial-gradient(center 50% 50%, radius 100%, #B64926, #FFB03B);
+    -fx-effect: dropshadow(gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+	-fx-text-fill: white;
+    -fx-text-effect: dropshadow(gaussian , #a30000 , 0,0,0,2 );
+	-fx-font-family: "Helvetica";
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+	-fc-text-align:left;
+}
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #1695A3 0%, #ACF0F2 100%),
+        #FFF0A5,
+        #DBBB5D,
+        radial-gradient(center 50% 50%, radius 100%, #FFF0A5, #DBBB5D);
+}
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+.label {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FBFBFB;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 0 0 ;
+    -fx-background-radius: 50 ;
+}
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+

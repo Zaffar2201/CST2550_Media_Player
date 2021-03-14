@@ -1,0 +1,36 @@
+.root {
+     -fx-background-image: url("../images/backgroundMessageBox.jpg");
+-fx-background-repeat: stretch;
+}
+
+.button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 25;
+    -fx-background-color: 
+       
+        radial-gradient(center 50% 50%, radius 100%, #404040, #404040);
+    -fx-effect: dropshadow(gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+	-fx-text-fill: white;
+    -fx-text-effect: dropshadow(gaussian , #a30000 , 0,0,0,2 );
+	-fx-font-family: "Helvetica";
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+.button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #71eeb8 0%, #71eeb8 100%),
+        #FFF0A5,
+        #71eeb8,
+        radial-gradient(center 50% 50%, radius 100%, #FFF0A5, #DBBB5D);
+}
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+.label {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
